@@ -143,10 +143,10 @@ $Bot->on(["animation", "audio", "document", "photo", "sticker", "video", "video_
     }
 });
 
-if (empty(getenv("BOT_TOKEN"))) {
+if (empty(getenv("1726246268:AAE3TmAkP_s4NoYOfSmpw906ympScQw5st8"))) {
     echo "Please add token";
     die();
 } else {
     echo "bot started";
-    $Bot->Handler(getenv("BOT_TOKEN"));
+    $Bot->Handler(getenv("1726246268:AAE3TmAkP_s4NoYOfSmpw906ympScQw5st8"));
 }
